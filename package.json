@@ -1,0 +1,27 @@
+{
+  "name": "express_mongo",
+  "version": "0.0.0",
+  "description": "CRUD in Express and Mongo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepsaurabh/express_mongo.git"
+  },
+  "author": "deepsaurabh",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deepsaurabh/express_mongo/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "body-parser": "~1.15.2",
+    "mongodb": "~2.2.15",
+    "ejs": "~2.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "~1.11.0"
+  }
+}
